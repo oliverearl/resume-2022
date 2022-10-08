@@ -81,15 +81,10 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
-%for publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
 %Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
 
 %for social icons
 \usepackage{fontawesome5}
@@ -116,12 +111,11 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Oliver Earl} \\[7.5pt]
+\href{https://github.com/oliverearl}{\raisebox{-0.05\height}\faGithub\ oliverearl} \ $|$ \ 
+\href{https://linkedin.com/in/oliverearl}{\raisebox{-0.05\height}\faLinkedin\ oliverearl} \ $|$ \ 
+\href{https://www.oliverearl.co.uk}{\raisebox{-0.05\height}\faGlobe \ oliverearl.co.uk} \ $|$ \ 
+\href{mailto:oliver@oliverearl.co.uk}{\raisebox{-0.05\height}\faEnvelope \ oliver@oliverearl.co.uk} \ 
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -130,34 +124,75 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+Courteous and self-motivated software engineer and former computer science teacher, with multiple years specialising in the PHP and JavaScript full-stack ecosystems and is passionate for writing test-driven, enterprise-ready code and documentation to produce innovative and performative software running on the web and beyond.
 
 %Experience
 \section{Work Experience}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Jan 2021 - present \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Mar 2019 - Jan 2021 \\[3.75pt]
+\textbf{Software Developer}, Stickee Technology & \hfill Jan 2021 - Present \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] long long line of blah blah that will wrap when the table fills the column width
-        \item[--] again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+        \item[--] Responsible for high quality, test-backed full-stack code; providing both support and new functionality both independently and collaboratively across the Digital Delivery team.
+        \item[--] Lead developer on the full-stack integration of an alternative payment provider and monthly payment plan support for mobile phones and accessories for a major UK phone network.
+        \item[--] Primary contributor for various internal PHP and Laravel packages, most notably a fork of the popular Spatie Activity Log package to support older versions of the framework, provide automated alerts, and database ID correlation, all with full documentation and continuous integration.
+        \item[--] Routinely develop and/or utilise APIs, automatic asynchronous file-based importing and processing, component-based front-end design, and comprehensive, data-set driven testing suites.
     \end{itemize}
     \end{minipage}
 }
 \end{tabularx}
 
-%Projects
-\section{Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Volunteer Software Developer}, Nightline Association & \hfill Mar 2022 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Core developer on Portal, our bespoke software leveraging Laravel and Inertia.js to provide modular services including call logging, real-time anonymous instant messaging, and data analysis to the charity and to student-run Nightlines operating across the UK.
+        \item[--] Responsible for ensuring continued quality code and documentation, and aiding with the mentoring and on-boarding of junior developers, including code reviewing and organising pair programming sessions.
+        \item[--] Assists with the support and maintenance of internal WordPress plugins, our anonymous email suite written in Java, and sparingly used legacy projects using CodeIgniter 3.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{Teacher of Computer Science and IT}, Arden Academy & \hfill Jan 2020 - Dec 2021 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+    Taught GCSE and A-Level Computer Science at one of the top state schools in the UK.
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Demonstrator}, Aberystwyth University & \hfill Sep 2015 - Sep 2019 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+    Part-time teaching assistant on modules including topics such as Arduino C++, Linux, and JavaScript.
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Front-End Developer Intern}, Amadeus Germany GmbH & \hfill Jun 2016 - Dec 2016 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+    Prototyped front-ends using then cutting-edge TypeScript and Angular. Working language of German.
+    \end{minipage}
+}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Software Engineering &  \normalsize{RESTful APIs, GraphQL, Design Patterns, Data Structures and Algorithms, Agile Methodologies, SDLC, Jira, Confluence, Wrike, Trello, G-Suite}\\
+Full-Stack Development &  \normalsize{PHP, HTML/CSS, JavaScript, TypeScript, jQuery, Sass, Bootstrap, Tailwind, Vue.js 2.x/3.x, Vuex, Pinia, Nuxt.js, Inertia.js, WordPress, CodeIgniter 3}\\
+Laravel Ecosystem &  \normalsize{Laravel 5.6 - 9.x, Lumen, Nova, Cashier, Echo, Composer Package Development}\\  
+Game Development &  \normalsize{Phaser.js, Godot, Photoshop, Krita, Aesprite}\\ 
+Testing and Tools &  \normalsize{PHPUnit, Pest, Dusk, Jest, PHP CS Fixer / Pint, Eslint, Pusher, Websockets, MySQL, Redis, Docker, Git, GitHub Actions, Linux, Java, Bash, Virtualisation}\\  
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -165,34 +200,67 @@ This CV is automatically generated and deployed using the \href{https://github.c
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+2019 - 2020 & \textbf{PGCE Post-Compulsory Education}, Birmingham City University \hfill \normalsize (Qualified) \\
+\multicolumn{2}{@{}X@{}}{} \\
+2018 - 2019 & \textbf{MSc Software Engineering}, Aberystwyth University \hfill (Merit) \\ 
+\multicolumn{2}{@{}X@{}}{} \\
+2014 - 2018 & \textbf{BSc(Hons) Computer Science w/ German}, Aberystwyth University \hfill  (1st Class) \\
+\end{tabularx}
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{ExtraContinue} & \hfill \href{https://github.com/extracontinue}{github.com/extracontinue} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Following a bout of severe illness, ExtraContinue came about as an idea for a dead man's switch that can perform actions such as sending emails, instant messages, and tweets, after a long period of unexpected inactivity. Still under active development.}  \\
+\end{tabularx}
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Fluent interface for working with SplFixedArrays} & \hfill \href{https://github.com/petrobolos/fixed-array-functions}{github.com/petrobolos/fixed-array-functions} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{An open source library that provides a fluent interface and helper functions for working with fixed-size arrays, written for PHP 8.1.}  \\
+\end{tabularx}
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Hashnode API Wrapper} & \hfill \href{https://github.com/oliverearl/php-hashnode}{github.com/oliverearl/php-hashnode} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{A wrapper for conveniently interfacing Hashnode's GraphQL API, compatible with PHP 7.4 and above.}  \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
 \section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS
-%----------------------------------------------------------------------------------------
-\section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Personal Blog} & \hfill \href{https://www.oliverearl.co.uk/\#posts}{oliverearl.co.uk/posts} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Periodically updated with posts on software engineering, professional development, and pedagogy.}  \\
 \end{tabularx}
 
+%----------------------------------------------------------------------------------------
+%	Miscellaneous Experience
+%----------------------------------------------------------------------------------------
+\section{Other Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Regional Coordinator}, Nightline Association & \hfill Jun 2021 - Present \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+    The elected representative responsible for overseeing Nightline branches within Wales, ensuring that they operate within the guidelines set by the central organisation and are adequately supported with their day-to-day operations.
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Listening Volunteer}, Aberystwyth Nightline & \hfill Feb 2015 - Sep 2019 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+    Volunteer with more than 600 hours of helpline support, 550 in peer-to-peer support, and 230 in Active Listening training. Certified in both mental health first aid and applied suicide intervention.
+    \end{minipage}
+}
+\end{tabularx}
+
+\section{References}
+Available on request.
+
 \vfill
-\center{\footnotesize Last updated: \today}
+\center{\footnotesize Last updated on \today.}
 
 \end{document}
